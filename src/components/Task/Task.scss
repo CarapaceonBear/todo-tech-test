@@ -1,1 +1,11 @@
 @use "../../assets/sass/variables" as *;
+
+.task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+}
