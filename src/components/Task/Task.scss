@@ -1,1 +1,35 @@
 @use "../../assets/sass/variables" as *;
+
+.task {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    width: 80%;
+
+    &__text {
+        min-width: 60%;
+
+        &--complete {
+            min-width: 60%;
+            text-decoration: line-through;
+        }
+    }
+    &__bin {
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #0000;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.fa-trash-can {
+    z-index: -1;
+}
