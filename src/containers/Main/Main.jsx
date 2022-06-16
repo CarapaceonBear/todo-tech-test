@@ -8,23 +8,36 @@ const Main = () => {
   const [taskList, setTaskList] = useState([]);
 
   const updateText = (event) => {
-    console.log(event.target.value);
     setInputText(event.target.value);
   }
 
   const addTask = () => {
-    const temp = taskList.map(task => {
+    const currentTasks = taskList.map(task => {
       return task;
     });
-    temp.push(inputText);
-    setTaskList(temp)
+    if (inputText != "") {
+      currentTasks.push(inputText);
+    }
+    setTaskList(currentTasks)
   }
+
+  const deleteTask = (event) => {
+    const currentTasks = taskList.map(task => {
+      return task;
+    });
+    const deleteIndex = taskList.findIndex(element => element == event.target.value)
+    if (deleteIndex != -1) {
+      currentTasks.splice(deleteIndex, 1);
+    }
+    setTaskList(currentTasks);
+  }
+
 
   return (
     <div className="main">
       <AddBox updateText={updateText} addTask={addTask} trigger={taskList} />
-      {(taskList || []).map(task => {
-        return <Task text={task} />
+      {(taskList || []).map((task, index) => {
+        return <Task key={"task " + index} text={task} deleteTask={deleteTask} />
       })}
     </div>
   )
