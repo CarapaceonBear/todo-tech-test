@@ -1,9 +1,9 @@
 import React from "react";
 import "./ResetButton.scss";
 
-const ResetButton = () => {
+const ResetButton = ({name, onClick}) => {
   return (
-    <div>ResetButton</div>
+    <button className="reset-button" onClick={onClick}>{name}</button>
   )
 }
 
