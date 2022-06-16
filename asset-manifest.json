@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/http.carapaceonbear.github.io/todo-tech-test/static/css/main.eeb4ae37.css",
+    "main.js": "/http.carapaceonbear.github.io/todo-tech-test/static/js/main.532e77e8.js",
+    "static/js/787.e7860ee6.chunk.js": "/http.carapaceonbear.github.io/todo-tech-test/static/js/787.e7860ee6.chunk.js",
+    "index.html": "/http.carapaceonbear.github.io/todo-tech-test/index.html",
+    "main.eeb4ae37.css.map": "/http.carapaceonbear.github.io/todo-tech-test/static/css/main.eeb4ae37.css.map",
+    "main.532e77e8.js.map": "/http.carapaceonbear.github.io/todo-tech-test/static/js/main.532e77e8.js.map",
+    "787.e7860ee6.chunk.js.map": "/http.carapaceonbear.github.io/todo-tech-test/static/js/787.e7860ee6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eeb4ae37.css",
+    "static/js/main.532e77e8.js"
+  ]
+}
