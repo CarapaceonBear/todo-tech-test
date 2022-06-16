@@ -15,18 +15,20 @@ const Main = ({reset}) => {
     const currentTasks = taskList.map(task => {
       return task;
     });
-    if (inputText != "") {
+    if (inputText !== "") {
       currentTasks.push(inputText);
     }
     setTaskList(currentTasks)
   }
 
   const deleteTask = (event) => {
+    console.log("delete?");
+    console.log(event.target.value);
     const currentTasks = taskList.map(task => {
       return task;
     });
-    const deleteIndex = taskList.findIndex(element => element == event.target.value)
-    if (deleteIndex != -1) {
+    const deleteIndex = taskList.findIndex(element => element === event.target.value)
+    if (deleteIndex !== -1) {
       currentTasks.splice(deleteIndex, 1);
     }
     setTaskList(currentTasks);

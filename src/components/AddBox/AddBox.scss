@@ -19,5 +19,14 @@
     }
     &__button {
         margin-right: 1rem;
+        height: 2rem;
+        width: 2rem;
+        border-radius: 1rem;
+        border: none;
+        background-color: #0000;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }

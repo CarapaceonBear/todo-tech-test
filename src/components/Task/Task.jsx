@@ -32,7 +32,9 @@ const Task = ({text, deleteTask}) => {
   return (
     <div className="task">
       {checkIfComplete()}
-      <button className="task__bin" value={text} onClick={deleteTask}>bin</button>
+      <button className="task__bin" value={text} onClick={deleteTask}>
+        <i className="fa-solid fa-trash-can fa-xl" name={text}></i>
+      </button>
     </div>
   )
 }
