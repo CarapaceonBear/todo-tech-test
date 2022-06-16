@@ -1,9 +1,9 @@
-import React, {useState} from "react";
+import React, {useState, useEffect} from "react";
 import "./Main.scss";
 import AddBox from "../../components/AddBox/AddBox";
 import Task from "../../components/Task/Task";
 
-const Main = () => {
+const Main = ({reset}) => {
   const [inputText, setInputText] = useState("");
   const [taskList, setTaskList] = useState([]);
 
@@ -32,6 +32,9 @@ const Main = () => {
     setTaskList(currentTasks);
   }
 
+  useEffect(() => {
+    setTaskList([])
+  }, [reset])
 
   return (
     <div className="main">
