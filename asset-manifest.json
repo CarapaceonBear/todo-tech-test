@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/http.carapaceonbear.github.io/todo-tech-test/static/css/main.07b033a4.css",
-    "main.js": "/http.carapaceonbear.github.io/todo-tech-test/static/js/main.2b0d8d24.js",
-    "static/js/787.e7860ee6.chunk.js": "/http.carapaceonbear.github.io/todo-tech-test/static/js/787.e7860ee6.chunk.js",
-    "index.html": "/http.carapaceonbear.github.io/todo-tech-test/index.html",
-    "main.07b033a4.css.map": "/http.carapaceonbear.github.io/todo-tech-test/static/css/main.07b033a4.css.map",
-    "main.2b0d8d24.js.map": "/http.carapaceonbear.github.io/todo-tech-test/static/js/main.2b0d8d24.js.map",
-    "787.e7860ee6.chunk.js.map": "/http.carapaceonbear.github.io/todo-tech-test/static/js/787.e7860ee6.chunk.js.map"
+    "main.css": "/todo-tech-test/static/css/main.07b033a4.css",
+    "main.js": "/todo-tech-test/static/js/main.510fd2d8.js",
+    "static/js/787.e7860ee6.chunk.js": "/todo-tech-test/static/js/787.e7860ee6.chunk.js",
+    "index.html": "/todo-tech-test/index.html",
+    "main.07b033a4.css.map": "/todo-tech-test/static/css/main.07b033a4.css.map",
+    "main.510fd2d8.js.map": "/todo-tech-test/static/js/main.510fd2d8.js.map",
+    "787.e7860ee6.chunk.js.map": "/todo-tech-test/static/js/787.e7860ee6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.07b033a4.css",
-    "static/js/main.2b0d8d24.js"
+    "static/js/main.510fd2d8.js"
   ]
 }
